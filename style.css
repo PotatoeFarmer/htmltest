@@ -1,6 +1,42 @@
-/* CSS styles */
-h1 {
-font-family: Impact, sans-serif;
-color: #CE5937;
+:root {
+  --color-bg: #69F7BE;
+  --color-text-main: #000000;
+  --color-text-header: #2800FF;
+  --color-primary: #FFFF00;
+  --wrapper-height: 87vh;
+  --image-max-width: 300px;
+  --image-margin: 3rem;
+  --font-family: "HK Grotesk";
+  --font-family-header: "HK Grotesk";
 }
-	  
+
+/* Basic page style resets */
+* {
+  box-sizing: border-box;
+}
+[hidden] {
+  display: none !important;
+}
+
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+/* IGNORE EVERYTHING ABOVE */
+h1 {
+  color: green;
+}
+
+.img {
+  max-width: 100%;
+  max-height: 100px;
+  margin-top: 100px;
+}
